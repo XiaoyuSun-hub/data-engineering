@@ -12,6 +12,13 @@ Using  two Python operators in Airflow build data pipeline (queryInsertDag.py).
 
 (pic)
 
+#### Cleaning,filter,write it
+
+Using a Bash and two Python operators in Airflow build data pipeline (cleandataAirflow.py).
+
+(pic)
+
+
 ## Inserting and extracting data from NoSQL database(Elasticsearch) 
 Insert data using The index or helper method (elasticsearchInsert.py).
 
