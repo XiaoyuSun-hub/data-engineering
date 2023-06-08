@@ -31,9 +31,9 @@ Verify the results Kibana.
  
 ##  Spark
 ### why Spark?
-support both streams and batch data
-fast 
-distribute processing tasks across multiple computers through cluster
+support both streams and batch data  
+fast   
+distribute processing tasks across multiple computers through cluster  
 
 ### Process data with PySpark
 
