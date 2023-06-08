@@ -50,8 +50,8 @@ visit http://localhost:8080/  you could see the node and tasks
 ![Cluster](https://github.com/XiaoyuSun-hub/data-engineering/blob/master/pic/spark_cluster.png)
 
 ### Process data with PySpark
-read,modify,filter,select data
-code in processDataSpark.ipynb
+read,modify,filter,select data  
+code and results showed in processDataSpark.ipynb
 
 
 
