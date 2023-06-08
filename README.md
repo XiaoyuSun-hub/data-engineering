@@ -28,6 +28,16 @@ Verify the results Kibana.
 
 #### Extract data using search, combine with scroll for large results.
  (elasticsearchQuery.py)
+ 
+##  Spark
+### why Spark?
+support both streams and batch data
+fast 
+distribute processing tasks across multiple computers through cluster
+
+### Process data with PySpark
+
+
 
 
 
