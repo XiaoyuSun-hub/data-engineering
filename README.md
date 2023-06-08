@@ -21,7 +21,7 @@ Using a Bash and two Python operators in Airflow build data pipeline (cleandataA
 
 ## NoSQL database(Elasticsearch) 
 #### Insert data using The index or helper method .
-(elasticsearchInsert.py)
+(elasticsearchInsert.py)  
 Verify the results Kibana.
 
 （pic）
