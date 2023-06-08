@@ -11,10 +11,10 @@ Using  two Python operators in Airflow build data pipeline (queryInsertDag.py).
 (pic)
 
 ## Inserting and extracting data from NoSQL database(Elasticsearch) 
-insert data using The index or helper method (elasticsearchInsert.py）
-verify the results Kibana
+insert data using The index or helper method (elasticsearchInsert.py.
+verify the results Kibana.
 （pic）
-extract in elasticsearchQuery.py
+extract in elasticsearchQuery.py.
 
 
 
