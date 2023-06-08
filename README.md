@@ -16,7 +16,7 @@ Using  two Python operators in Airflow build data pipeline (queryInsertDag.py).
 
 Using a Bash and two Python operators in Airflow build data pipeline (cleandataAirflow.py).
 
-(pic)
+![cleandataAirflow](https://github.com/XiaoyuSun-hub/data-engineering/blob/master/pic/airflow_cleandata.jpg)
 
 
 ## NoSQL database(Elasticsearch) 
@@ -24,7 +24,8 @@ Using a Bash and two Python operators in Airflow build data pipeline (cleandataA
 (elasticsearchInsert.py)  
 Verify the results Kibana.
 
-（pic）
+![Kibana](https://github.com/XiaoyuSun-hub/data-engineering/blob/master/pic/elastic_kibanna.png)
+
 
 #### Extract data using search, combine with scroll for large results.
  (elasticsearchQuery.py)
@@ -38,6 +39,8 @@ distribute processing tasks across multiple computers through cluster
 ### Process data with PySpark
 read,modify,filter,select data
 code in processDataSpark.ipynb
+
+![Cluster](https://github.com/XiaoyuSun-hub/data-engineering/blob/master/pic/spark_cluster.png)
 
 
 
