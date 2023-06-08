@@ -5,12 +5,8 @@ This project included sample code when I learning related technology about Data 
 ####  Building a CSV to a JSON  
 Using a Bash and Python operator in Airflow build data pipeline(csvtojson.py).
 
-(pic)
-
 ####  Extract data from PostgreSQL, save it as a CSV file, read and write it to  Elasticsearch index
 Using  two Python operators in Airflow build data pipeline (queryInsertDag.py).
-
-(pic)
 
 #### Cleaning,filter,write it
 
@@ -35,6 +31,22 @@ Verify the results Kibana.
 support both streams and batch data  
 fast   
 distribute processing tasks across multiple computers through cluster  
+
+
+
+#### cluster
+download the packages and unzip the package and rename the shell script name(it is not neccessary step).
+```
+cp start-master.sh start-head.sh
+cp start-slave.sh start-node.sh
+```
+
+build cluster by following command, the LAPTOP-7D78FTBR is the domain name for my VM
+```
+./spark3.2/sbin/start-head.sh
+./spark-node3.2/sbin/start-node.sh spark://LAPTOP-7D78FTBR.localdomain:7077 -p 9911
+```
+
 
 ### Process data with PySpark
 read,modify,filter,select data
