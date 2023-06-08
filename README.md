@@ -19,14 +19,14 @@ Using a Bash and two Python operators in Airflow build data pipeline (cleandataA
 (pic)
 
 
-## Inserting and extracting data from NoSQL database(Elasticsearch) 
-Insert data using The index or helper method (elasticsearchInsert.py).
+## NoSQL database(Elasticsearch) 
+#### Insert data using The index or helper method (elasticsearchInsert.py).
 
 Verify the results Kibana.
 
 （pic）
 
-Extract data using search, combine with scroll for large results (elasticsearchQuery.py).
+#### Extract data using search, combine with scroll for large results (elasticsearchQuery.py).
 
 
 
