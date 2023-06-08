@@ -46,13 +46,14 @@ build cluster by following command, the LAPTOP-7D78FTBR is the domain name for m
 ./spark3.2/sbin/start-head.sh
 ./spark-node3.2/sbin/start-node.sh spark://LAPTOP-7D78FTBR.localdomain:7077 -p 9911
 ```
-
+visit http://localhost:8080/  you could see the node and tasks  
+![Cluster](https://github.com/XiaoyuSun-hub/data-engineering/blob/master/pic/spark_cluster.png)
 
 ### Process data with PySpark
 read,modify,filter,select data
 code in processDataSpark.ipynb
 
-![Cluster](https://github.com/XiaoyuSun-hub/data-engineering/blob/master/pic/spark_cluster.png)
+
 
 
 
